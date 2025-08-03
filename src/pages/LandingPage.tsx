@@ -24,7 +24,7 @@ export default function LandingPage() {
       </section>
 
       {/* About section */}
-      <section id="about">
+      <section id="about" className="min-h-screen flex items-center justify-center">
         <AboutCard />
       </section>
     </div>

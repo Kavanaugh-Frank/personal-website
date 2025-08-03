@@ -10,7 +10,7 @@ function App() {
   }, []);
   return (
     <div>
-      <BackgroundBeams className="fixed inset-0 h-[300vh] hidden md:block" />
+      <BackgroundBeams className="fixed inset-0 h-[200vh]" />
       <Routes>
         <Route path="/" element={<LandingPage />} />
       </Routes>
